@@ -1,2 +1,4 @@
 # BazinBot
 Robô assessor de investimentos (BazinBot). O bot calcula automaticamente o valuation de ações brasileiras pelo método Bazin, proporcionando uma experiência padronizada, didática e confiável para investidores, consultores e demais usuários do mercado financeiro.
+
+https://linen-goose-163983.hostingersite.com/valuation-por-bazin/
