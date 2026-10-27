@@ -4,6 +4,8 @@ Aplicativo de valuation educacional de ações brasileiras pelo Método de Bazin
 
 **[▶ Experimentar aplicativo](https://bazinbot.onrender.com/)** · **Python** · **Pandas** · **Streamlit** · **Finanças quantitativas**
 
+![Tela real do BazinBot publicado no Render](https://raw.githubusercontent.com/alvarobonifacio1980/alvarobonifacio1980/main/assets/screenshots/bazinbot.png)
+
 ### Visão rápida
 
 | Entrada | Processamento | Resultado |
