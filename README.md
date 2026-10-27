@@ -86,3 +86,7 @@ A aplicação está hospedada no Render e vinculada à branch `main` deste repos
 Projeto acadêmico para fins educacionais. Os resultados não constituem recomendação de investimento.
 
 **Autor:** Álvaro Bonifácio
+
+## Licenciamento e dados
+
+O código está disponibilizado publicamente para consulta e avaliação técnica, mas **ainda não foi definida uma licença de reutilização**. A liberação sob uma licença de código aberto dependerá de decisão do autor. Dados financeiros obtidos do Yahoo Finance/`yfinance` estão sujeitos às condições da fonte.
