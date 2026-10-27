@@ -69,6 +69,10 @@ python -m streamlit run app.py
 
 O arquivo de entrada da aplicação publicada é `app.py`. As dependências estão em `requirements.txt`, e `render.yaml` contém a configuração de referência para hospedagem no Render.
 
+## Interpretação e escopo
+
+Este aplicativo é uma demonstração quantitativa e educacional, não um robô assessor e não realiza suitability, recomendações personalizadas nem ordens de investimento. A aproximação de valor depende fortemente da taxa escolhida e da estabilidade histórica dos dividendos; não é uma estimativa de preço futuro.
+
 ## Publicação
 
 A aplicação está hospedada no Render e vinculada à branch `main` deste repositório. Atualizações de código nessa branch são publicadas automaticamente.
