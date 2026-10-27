@@ -2,7 +2,24 @@
 
 Aplicativo de valuation educacional de ações brasileiras pelo Método de Bazin, desenvolvido como trabalho aplicado da pós-graduação em Ciência de Dados para Mercado Financeiro com IA (XP Educação).
 
-**[Acessar o BazinBot](https://bazinbot.onrender.com/)**
+**[▶ Experimentar aplicativo](https://bazinbot.onrender.com/)** · **Python** · **Pandas** · **Streamlit** · **Finanças quantitativas**
+
+### Visão rápida
+
+| Entrada | Processamento | Resultado |
+|---|---|---|
+| Ticker, taxa de retorno e período | Consulta de preços/dividendos e média anual de dividendos | Estimativa de valor, dividend yield e tabela anual |
+
+```mermaid
+flowchart LR
+    A["Ticker + parâmetros"] --> B["Dados de preços e dividendos"]
+    B --> C["Agrupamento por ano"]
+    C --> D["Média de dividendos"]
+    D --> E["Valor estimado pelo Método de Bazin"]
+    E --> F["Resultados no Streamlit"]
+```
+
+> **Demonstração online:** o cálculo é didático e simplificado, não representa recomendação de investimento. A disponibilidade dos dados depende do Yahoo Finance.
 
 ## Objetivo
 
