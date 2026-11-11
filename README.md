@@ -1,6 +1,6 @@
 # BazinBot
 
-Aplicativo de valuation educacional de ações brasileiras pelo Método de Bazin, desenvolvido como trabalho aplicado da pós-graduação em Ciência de Dados para Mercado Financeiro com IA (XP Educação).
+Aplicação web em Python para analisar preços e dividendos de ações brasileiras e calcular uma estimativa de valor pelo **Método de Bazin**.
 
 **[▶ Experimentar aplicativo](https://bazinbot.onrender.com/)** · **Python** · **Pandas** · **Streamlit** · **Finanças quantitativas**
 
@@ -21,7 +21,7 @@ flowchart LR
     E --> F["Resultados no Streamlit"]
 ```
 
-> **Demonstração online:** o cálculo é didático e simplificado, não representa recomendação de investimento. A disponibilidade dos dados depende do Yahoo Finance.
+> Estudo de valuation por dividendos, com atualização de preços e proventos a partir do Yahoo Finance.
 
 ## Objetivo
 
@@ -69,24 +69,18 @@ python -m streamlit run app.py
 
 O arquivo de entrada da aplicação publicada é `app.py`. As dependências estão em `requirements.txt`, e `render.yaml` contém a configuração de referência para hospedagem no Render.
 
-## Interpretação e escopo
+## Interpretação do cálculo
 
-Este aplicativo é uma demonstração quantitativa e educacional, não um robô assessor e não realiza suitability, recomendações personalizadas nem ordens de investimento. A aproximação de valor depende fortemente da taxa escolhida e da estabilidade histórica dos dividendos; não é uma estimativa de preço futuro.
+O valor estimado é calculado a partir do histórico de dividendos e da taxa de retorno escolhida. A metodologia é útil para estudos comparativos e **não equivale a uma previsão de preço**.
 
 ## Publicação
 
 A aplicação está hospedada no Render e vinculada à branch `main` deste repositório. Atualizações de código nessa branch são publicadas automaticamente.
 
-## Limitações
-
-- A estimativa é simplificada e depende do histórico de dividendos disponível.
-- O preço utilizado corresponde ao último fechamento retornado pela fonte.
-- A disponibilidade dos dados depende do Yahoo Finance, que pode aplicar limites temporários de consultas.
-
-Projeto acadêmico para fins educacionais. Os resultados não constituem recomendação de investimento.
+Os dados de mercado são consultados no Yahoo Finance e a disponibilidade acompanha a fonte. **Ferramenta educacional, sem recomendação personalizada de investimento.**
 
 **Autor:** Álvaro Bonifácio
 
 ## Licenciamento e dados
 
-O código está disponibilizado publicamente para consulta e avaliação técnica, mas **ainda não foi definida uma licença de reutilização**. A liberação sob uma licença de código aberto dependerá de decisão do autor. Dados financeiros obtidos do Yahoo Finance/`yfinance` estão sujeitos às condições da fonte.
+Código apresentado para avaliação técnica. Dados financeiros fornecidos pelo Yahoo Finance, conforme os termos da fonte.
